@@ -1,0 +1,30 @@
+.buttons{
+background: rgba(160, 228, 176, 0.35);
+display: flex;
+justify-content: space-around;
+margin-top: 30px;
+border-radius: 5px;
+margin-bottom: 0px;
+width: 585px;
+}
+
+.buttons a{
+  color: white;
+  text-decoration: none;
+}
+.btn-green:hover{
+  text-decoration: underline;
+}
+
+#btn-read{
+  font-size: 10;
+}
+#btn-read:hover{
+  text-decoration: none;
+  color: rgb(160, 228, 176);
+  font-size: bold;
+  transition: 0.5s;
+}
+html{
+  scroll-behavior: smooth;
+}
